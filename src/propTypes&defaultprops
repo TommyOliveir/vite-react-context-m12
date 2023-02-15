@@ -1,0 +1,7 @@
+Button.propTypes = {
+    theme: PropTypes.oneOf(["light", "dark"])
+}
+
+Button.defaultProps = {
+    theme: "light"
+}
